@@ -89,5 +89,7 @@ Add a new project and select the "ESP32" board type.
 
 ## Results
 
+![fig 5](https://github.com/NityasriSuresh/Smart-Plant-Caring/assets/142957652/84b2328d-7460-40cc-bcfb-543fa6454cb7)
 
+ Thirsty emoji and water alert
 
