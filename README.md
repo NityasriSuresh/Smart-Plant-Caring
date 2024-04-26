@@ -80,6 +80,19 @@ Open the Blynk app and create a new account or log in to an existing one.
 
 Add a new project and select the "ESP32" board type.
 
+## System Architechture
+
+The DHT11 temperature sensor should be connected to the GPIO 14 pin of ESP32.DHT sensors are digital sensors, and they use single data pin for communication. The resistive soil moisture sensor uses analog communication to send data, which must be connected to the GPIO 26 pin of ESP32. The relay module of the pump must be connected to GPIO 32 pin of ESP32. Then VCC and ground of the sensors and relay module must be connected to 5V and ground of ESP32 respectively. The motor pump is connected to the relay with the help of 12 V battery.
+
+The VCC power supply of the TFT display was connected to 5V supply of ESP32, while the TFT ground was connected to ESP32 ground. The DIN/SDA (data/serial data) and CLK/SCK/SCL (clock) pins of the display should be connected to GPIO 23 and GPIO 18 of the ESP32, respectively. The CS (chip select) pin of the display should be connected to GPIO 15 of the ESP32, while the DC (data command) pin should be connected to GPIO 2, and the RST (reset) pin to GPIO 4.The BL (backlight) of TFT display need not be connected.
+
+![sysarchi](https://github.com/NityasriSuresh/Smart-Plant-Caring/assets/142957652/d5368688-6f07-4d5f-a5b9-8f76aed5b976)
+
+## Code Logic 
+
+
+
+
 
 
 
