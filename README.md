@@ -1,8 +1,8 @@
 
 # Smart Plant Caring
 
-This project builds a smart plant care system using IoT for urban environments. ESP32 microcontroller with sensors monitor soil moisture and temperature, automatically controlling a water pump based on user-defined soil threshold setting. The Blynk IoT platform allows remote monitoring and control via a mobile app, displaying real-time data and enabling manual pump control and threshold slider. Users can receive alerts and see emoji-based plant health indicators. This system automates plant care and merges technology with traditional practices, promoting user engagement.
-
+In this project a smart plant caring system using Internet of Things (IoT) technology was developed. The system leverages ESP32-based microcontroller integrated with sensors to monitor critical plant health parameters such as soil moisture and temperature. It automatically controls a water pump based on user-defined soil mositure threshold to maintain optimal plant health. The plant's well being can be visualized by the emojis displayed on the TFT screen.
+The system utilizes the Blynk IoT platform to enable remote monitoring and control through a mobile app. Users can view real-time sensor data, adjust settings like soil moisture thresholds,manually control the water pump  and receive alerts for specific plant conditions. The application uses Wi-Fi for communication, providing a convenient way to manage plant care.
 
 
 
