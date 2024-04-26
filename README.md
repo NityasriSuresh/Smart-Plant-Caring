@@ -9,9 +9,9 @@ The system utilizes the Blynk IoT platform to enable remote monitoring and contr
 
 ## Installation
 
-Install Arduino IDE:
+**Install Arduino IDE:**
 
-Download and install the latest version of the Arduino IDE on your computer.
+Download and install the latest version of the Arduino IDE on your computer. https://www.arduino.cc/en/software
 
 Open the Arduino IDE and navigate to File > Preferences.
 In the "Additional Boards Manager URLs" field, add the following URL: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json.
@@ -19,13 +19,13 @@ Click "OK" to save the changes.
 
 Go to Tools > Board > Boards Manager, search for "ESP32 Dev Module", and select it.
 
-Install Blynk Library:
+**Install Blynk Library:**
 
 In the Arduino IDE, go to Sketch > Include Library > Manage Libraries.
 
 Search for "Blynk" and install the latest version of the Blynk library.
 
-Install Other Required Libraries:
+**Install Other Required Libraries:**
 
 In the Arduino IDE, go to Sketch > Include Library > Manage Libraries.
 
@@ -57,24 +57,26 @@ Include the following header files along with PNG image header files
 
 •	thirsty.h
 
-Connect Hardware:
+**Connect Hardware:**
 
 Connect the soil moisture sensor, DHT11 sensor, TFT screen and water pump to the ESP32 board using jumper wires.
 Refer to the code for the pin assignments.
 
-Configure the Project:
+**Configure the Project:**
 
 Open the project code in the Arduino IDE.
 
 Update the Wi-Fi SSID, password, and Blynk authentication token in the code.
 
-Upload the Code:
+**Upload the Code:**
 
 Plug the ESP32 into the computer and upload the code by pressing the upload button in the IDE. This process compiles and uploads the code to the microcontroller.
 
-Set up the Blynk App:
+**Set up the Blynk App:**
 
 Download the Blynk app from the Google Play Store (for Android) or the App Store (for iOS).
+
+https://play.google.com/store/apps/details?id=cloud.blynk&hl=en_US&gl=US
 
 Open the Blynk app and create a new account or log in to an existing one.
 
@@ -95,8 +97,6 @@ The VCC power supply of the TFT display was connected to 5V supply of ESP32, whi
 
 ## Result
 
-![fig 5](https://github.com/NityasriSuresh/Smart-Plant-Caring/assets/142957652/84b2328d-7460-40cc-bcfb-543fa6454cb7)
-
- Thirsty emoji and water alert
+![results](https://github.com/NityasriSuresh/Smart-Plant-Caring/assets/142957652/e2920dcd-446d-4a98-bd1d-ccecd45088fd)
  
 
