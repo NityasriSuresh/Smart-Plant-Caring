@@ -90,17 +90,10 @@ The VCC power supply of the TFT display was connected to 5V supply of ESP32, whi
 
 ## Code Logic 
 
+![flow](https://github.com/NityasriSuresh/Smart-Plant-Caring/assets/142957652/2d8baa45-4d9d-4261-8115-b0f6b32fc8df)
 
 
-
-
-
-
-
-    
-
-
-## Results
+## Result
 
 ![fig 5](https://github.com/NityasriSuresh/Smart-Plant-Caring/assets/142957652/84b2328d-7460-40cc-bcfb-543fa6454cb7)
 
