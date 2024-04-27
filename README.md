@@ -1,10 +1,19 @@
 
 # Smart Plant Caring
 
-In this project a smart plant caring system using Internet of Things (IoT) technology was developed. The system leverages ESP32-based microcontroller integrated with sensors to monitor critical plant health parameters such as soil moisture and temperature. It automatically controls a water pump based on user-defined soil mositure threshold to maintain optimal plant health. The plant's well being can be visualized by the emojis displayed on the TFT screen.
-The system utilizes the Blynk IoT platform to enable remote monitoring and control through a mobile app. Users can view real-time sensor data, adjust settings like soil moisture thresholds,manually control the water pump  and receive alerts for specific plant conditions. The application uses Wi-Fi for communication, providing a convenient way to manage plant care.
+In this project a smart plant caring system using Internet of Things (IoT) technology was developed. The system leverages ESP32-based microcontroller integrated with sensors to monitor critical plant health parameters such as soil moisture and temperature. It automatically controls a water pump based on user-defined soil moisture threshold to maintain optimal plant health. The plant's well being can be visualized by the emojis displayed on the TFT screen.
+The system utilizes the Blynk IoT platform to enable remote monitoring and control through a mobile app. Users can view real-time sensor data, adjust settings like soil moisture thresholds, manually control the water pump  and receive alerts for specific plant conditions. The application uses Wi-Fi for communication, providing a convenient way to manage plant care.
 
+## Required Components
 
+| Component Name | Amazon link | Specifications |
+| --- | --- | --- |
+| Soil Moisture Sensor | [https://a.co/d/eYazQ2j](https://a.co/d/eYazQ2j) | Operating voltage 3.3V-5V, Operating Current: 15mA, PCB size:3.2cm*1.4m, weight:7g. |
+| Temperature Sensor | [https://amazon.com/HiLetgo-Temperature-Humidity-Digital-3-3V-5V/dp/B01DKC2GQ0](https://amazon.com/HiLetgo-Temperature-Humidity-Digital-3-3V-5V/dp/B01DKC2GQ0) | Operating Voltage: 3.5V to 5.5V, Operating current: 0.3mA, Temperature Range: 0°C to 50°C |
+| 1.28inch TFT round LCD Screen Display | [https://www.amazon.com/round-screen-module-240x240-display/dp/B0C2JCQYK2](https://www.amazon.com/round-screen-module-240x240-display/dp/B0C2JCQYK2) | 3-5V diving voltage, Interface mode: SPI;Color: full color RGB, Display size: 32.4mmx32.4mm;Overall dimensions:38mmx45.5mmx3.2mm,Resolution:240x240 |
+| Relay | [https://a.co/d/ciPGkgP](https://a.co/d/ciPGkgP) | AC 250V/10A, DC 30V/10A. trigger current 5mA. Two level trigger. |
+| Water Pump | [https://a.co/d/ijglNTA](https://a.co/d/ijglNTA) | 100L /H, Diving Type, working voltage:12V DC. |
+| Silicone Tube | [https://a.co/d/09qDc6e](https://a.co/d/09qDc6e) | Size: 5x7mm / 0.2"x0.28"(IDxOD); Length: 1M(3.3'); Wall Thickness: 1mm(0.04") |
 
 
 ## Installation
@@ -82,7 +91,7 @@ Open the Blynk app and create a new account or log in to an existing one.
 
 Add a new project and select the "ESP32" board type.
 
-To know more about Blynk IOT plantform read https://docs.blynk.io/en
+To know more about Blynk IOT platform read https://docs.blynk.io/en
 
 ## System Architechture
 
