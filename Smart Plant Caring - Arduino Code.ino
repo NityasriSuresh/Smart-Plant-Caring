@@ -21,7 +21,7 @@ char pass[] = "nityasri123";  // Update with your WiFi password
 BlynkTimer timer;
 
 #define DHTPIN 14 // Connect DHT sensor to GPIO 14 (D5) in ESP32
-#define SOIL_MOISTURE_PIN 25 // Connect soil moisture sensor to GPIO 26 in ESP32
+#define SOIL_MOISTURE_PIN 26 // Connect soil moisture sensor to GPIO 26 in ESP32
 #define DHTTYPE DHT11  
 #define PUMP_PIN 32
 
